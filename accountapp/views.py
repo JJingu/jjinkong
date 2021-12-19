@@ -7,4 +7,4 @@ from django.http import HttpResponse, HttpResponseRedirect
 
 def hello_world(request):
     # return render(request, 'accountapp/hello_world.html', context={'hello_world_list': hello_world_list})
-    return render(request, 'base.html')
+    return render(request, 'accountapp/hello_world.html')

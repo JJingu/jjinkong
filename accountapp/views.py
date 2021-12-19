@@ -6,4 +6,5 @@ from django.http import HttpResponse, HttpResponseRedirect
 
 
 def hello_world(request):
-    return HttpResponse('HELLO WORLD!\n 안녕하세요')
+    # return render(request, 'accountapp/hello_world.html', context={'hello_world_list': hello_world_list})
+    return render(request, 'base.html')

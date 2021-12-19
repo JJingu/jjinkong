@@ -15,7 +15,7 @@ from pathlib import Path
 import environ
 import os
 
-from django.conf.global_settings import STATICFILES_DIRS, LOGIN_REDIRECT_URL
+# from django.conf.global_settings import STATICFILES_DIRS, LOGIN_REDIRECT_URL
 from django.urls import reverse_lazy
 
 env = environ.Env(

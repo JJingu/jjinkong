@@ -3,7 +3,7 @@
 }
 
 .jjinkong_footer_button {
-    font-size: 0.9rem;
+    font-size: .9rem;
 }
 
 .jjinkong_footer {
@@ -14,4 +14,11 @@
 .jjinkong_header {
     text-align: center;
     margin: 2rem 0;
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 13px;
+    }
+
 }

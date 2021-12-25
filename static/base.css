@@ -29,8 +29,9 @@ a {
 
 
 a:hover {
-    color: blue;
-    text-decoration: underline purple 4px;
+    color: black;
+    font-weight: bold;
+
 }
 
 

@@ -2,8 +2,6 @@ FROM python:3.9.9
 
 WORKDIR /home/
 
-RUN echo "test211225"
-
 RUN git clone https://github.com/JJingu/home_test.git
 
 WORKDIR /home/jjinkong/

@@ -4,10 +4,6 @@ WORKDIR /home/
 
 RUN echo "testing44"
 
-RUN echo "testing44"
-
-RUN echo "testing44"
-
 RUN git clone https://github.com/JJingu/jjinkong.git
 
 WORKDIR /home/jjinkong/

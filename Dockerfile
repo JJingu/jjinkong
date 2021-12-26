@@ -1,14 +1,12 @@
 FROM python:3.9.9
 
-WORKDIR /home/
+RUN echo "testing35"
 
-RUN echo "testing44"
+WORKDIR /home/
 
 RUN git clone https://github.com/JJingu/jjinkong.git
 
 WORKDIR /home/jjinkong/
-
-RUN echo "testing44"
 
 RUN pip install -r requirements.txt
 
